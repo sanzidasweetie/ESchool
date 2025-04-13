@@ -39,7 +39,50 @@ header {
     margin-top: 30px;
 }
 
-
+/*course start*/
+.c_h1 {
+    font-size: 25px;
+}
+.s_course {
+    margin: 30px 0 0;
+    padding: 20px 15px 25px;
+}
+.s_h2 {
+    font-size: 22px;
+}
+.c_left ul li img, .c_right ul li img {
+    width: 21px;
+}
+.c_right ul li span {
+    font-size: 15px;
+}
+.sli{
+margin-right: 0px !important;
+}
+/*testimony start*/
+.testimony{
+    padding-bottom: 60px;
+    .t_item {
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 60px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/*footer top start*/
+.footer_top {
+    text-align: center;
+    padding: 55px 0 20px;
+}
+.ft_details{
+    margin-bottom: 35px;
+    padding-right: 0px;
+}
+.ft_links{
+    padding-bottom: 35px;
+}
 
 }
 
@@ -83,9 +126,39 @@ header {
     margin-top: 30px;
 }
 
-
-
-
+/*course start*/
+.c_h1 {
+    font-size: 25px;
+}
+.s_course {
+    margin: 30px 70px 0;
+    padding: 20px 15px 25px;
+}
+.s_h2 {
+    font-size: 22px;
+}
+/*testimony start*/
+.testimony{
+    padding-bottom: 60px;
+}
+.t_item {
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 120px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/*footer top start*/
+.footer_top{
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -117,6 +190,29 @@ header {
 .f_item{
     margin-top: 30px;
 }
+/*course start*/
+.c_h1 {
+    font-size: 30px;
+}
+.s_course {
+    margin: 40px 100px 0;
+}
+/*testimony start*/
+.testimony{
+    padding-bottom: 80px;
+}
+/*.t_item{
+    margin-top: 40px;
+}*/
+/*footer top start*/
+.footer_top{
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
 
 }
 
@@ -130,6 +226,19 @@ header {
 .f_img{
     width: 55px;
     height: 70px;
+}
+/*course start*/
+.s_course {
+    padding: 20px 15px 25px;
+}
+.c_left ul li img, .c_right ul li img {
+    width: 21px;
+}
+.c_right ul li span {
+    font-size: 15px;
+}
+.sli{
+margin-right: 0px !important;
 }
 
 }
@@ -146,6 +255,11 @@ header {
 
 /* Extra Extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+/*footer top start*/
+.ft_details{
+    padding-right: 130px;
+}
+
 
 }
 
